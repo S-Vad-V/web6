@@ -1,0 +1,148 @@
+.header {
+    background-color: #1897f2;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-bottom: 0;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.header h1 {
+    display: block;
+    justify-content: center;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    font: 2.5em Roboto-Slab-Bold;
+}
+
+.navigation {
+    background-color: #1897f2;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #1897f2;
+    text-align: center;
+}
+
+ul li a:hover {
+    color: #b6e0ff;
+    border-bottom: 2px solid #b6e0ff;
+}
+
+
+.footer {
+    background-color: #1897f2
+}
+
+.content {
+    background-color: #e7f5ff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+main {
+    border: 1px solid white;
+}
+
+.main-h1 {
+    text-align: center;
+}
+
+product-list {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+}
+
+.product-item {
+    background-color: #1897f2;
+    justify-content: center;
+
+    border-radius: 5px;
+
+    margin: 5px;
+    min-width: 200px;
+    height: 360px;
+    padding-bottom: 5px;
+}
+
+.product-item .item-img {
+    width: 100%;
+}
+
+.product-name {}
+
+.product-name h4 {
+    text-align: center;
+
+}
+
+.product-item img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.product-item .product-info {
+    display: flex;
+    justify-content: center;
+}
+
+.product-item .product-info-text {
+    font-size: 1em;
+}
+
+.product-item .product-price {
+    display: flex;
+    justify-content: center;
+}
+
+.product-description {
+    display: block;
+
+
+}
+
+.product-item .price {}
+
+.product-item .product-footer {}
+
+.product-footer {
+    width: 100%;
+}
+
+.product-footer .product-description {
+    background-color: #b6e0ff;
+    border-radius: 8px;
+    padding-left: 2px;
+
+    display: block;
+    width: 190px;
+    margin: 0 auto;
+    font-size: 0.8em;
+}
+
+#Order {
+    background-color: aliceblue;
+}
